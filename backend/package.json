@@ -1,0 +1,15 @@
+{
+  "name": "blinkbargain",
+  "private": true,
+  "version": "0.1.0",
+  "type": "commonjs",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/server/server.js",
+    "dev": "node --watch dist/server/server.js",
+    "test": "npm run build && node --test"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.2"
+  }
+}
